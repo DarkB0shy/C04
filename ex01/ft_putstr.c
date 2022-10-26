@@ -6,7 +6,7 @@
 /*   By: dcarassi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/26 20:37:11 by dcarassi          #+#    #+#             */
-/*   Updated: 2022/10/26 20:42:46 by dcarassi         ###   ########.fr       */
+/*   Updated: 2022/10/26 20:56:57 by dcarassi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,10 +22,4 @@ void	ft_putstr(char *str)
 		write(1, &str[i], 1);
 		i++;
 	}
-}
-
-int	main(void)
-{
-	ft_putstr("Jerome");
-	return (0);
 }
